@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "orchard_port",
+  "version": "${version}",
+  "name": "Orchard 26.2 Port (Starter)",
+  "description": "Clean Fabric 26.2 starter project for rebuilding compatible Orchard features.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.example.orchard.OrchardClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
